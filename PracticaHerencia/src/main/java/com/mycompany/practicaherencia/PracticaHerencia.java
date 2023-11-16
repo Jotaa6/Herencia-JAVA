@@ -30,6 +30,8 @@ public class PracticaHerencia {
         professor.saludar();
                 
         Persona student2 = new Student();
+        Persona profe2 = new Professor();
+        System.out.println(profe2.getName());
         System.out.println(student2.getName());
     }
 }

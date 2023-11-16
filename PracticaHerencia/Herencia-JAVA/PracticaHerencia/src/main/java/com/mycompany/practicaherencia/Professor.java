@@ -11,10 +11,6 @@ package com.mycompany.practicaherencia;
 public class Professor extends Persona{
     protected String materia;
     
-    public Professor(){
-       this.name = " Profesor con el mejor salario: Tilinio";
-   
-   }
     public void Teacher(){
     System.out.println("El maestro de : " + materia + " " + "es" + " " + name + " " + apellido);
     }

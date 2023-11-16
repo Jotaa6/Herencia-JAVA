@@ -8,19 +8,20 @@ package com.mycompany.practicaherencia;
  *
  * @author kirih
  */
-public class Professor extends Persona{
-    protected String materia;
+public class Student extends Persona{
+    protected int nota;
     
-    public Professor(){
-       this.name = " Profesor con el mejor salario: Tilinio";
+   public Student(){
+       this.name = " Estudiante quedado: Pedro Alejandro";
    
    }
-    public void Teacher(){
-    System.out.println("El maestro de : " + materia + " " + "es" + " " + name + " " + apellido);
+
+    public void Mostrar(){
+        System.out.println("Hola la nota de: " + name + " " + apellido + " " + "es: " + " " + nota);
     }
     
-        @Override
-   public void saludar(){
+    @Override
+    public void saludar(){
        System.out.println("Bienvenido" + name);
-   } 
+   }
 }
